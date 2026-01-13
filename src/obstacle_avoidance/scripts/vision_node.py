@@ -13,7 +13,7 @@ rospy.init_node("vision_decision_node")
 decision_pub = rospy.Publisher("/obstacle_decision", String, queue_size=10)
 rate = rospy.Rate(10) # Run at 10 Hz
 
-VIDEO_PATH = "/home/alex/MiDaS/test_video/yolo3.mp4"
+VIDEO_PATH = "/test_video/yolo3.mp4"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 OBSTACLE_CLASSES = {
