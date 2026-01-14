@@ -11,8 +11,6 @@ The system analyzes a video stream, detects obstacles, estimates their relative 
 
 ## 📷 Demo & Examples
 
-*(Add your images inside `docs/images/` to visualize the results)*
-
 | YOLO Detection | MiDaS Depth Map | Decision Visualization |
 | :---: | :---: | :---: |
 | ![YOLO Detection](/images/img1.png) | ![MiDaS Depth](/images/img2.png) | ![Zones](/images/img3.png) |
