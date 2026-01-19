@@ -9,7 +9,18 @@ This project implements a **vision-based obstacle avoidance system** using **mon
 
 The system analyzes a video stream, detects obstacles, estimates their relative depth, and publishes real-time navigation decisions such as **FORWARD**, **TURN_LEFT**, **TURN_RIGHT**, or **STOP**.
 
-## 📷 Demo & Examples
+## `yolo_midas_visual.py`
+
+This script runs YOLOv8 together with MiDaS to provide a **visual overview of obstacle perception**.
+
+It shows:
+- Bounding boxes around detected objects (YOLO
+- Highlighted safe zones and areas with potential obstacles
+- Overlayed navigation decision
+
+This allows developers to **see exactly what the system detects and how it decides**.  
+
+## 📷 Example visuals from running the script are shown below:**  
 
 | YOLO Detection | MiDaS Depth Map | Decision Visualization |
 | :---: | :---: | :---: |
